@@ -22,7 +22,7 @@ fn main() {
 
     #[allow(unused_variables)]
     let event_time: &'static str = "6:00 PM";
-    let event_time: &'static str = "7:00 PM";
+    let event_time: i32 = 1900;
     
 
     println!("Print my name {name} using curly brackets, residing in {location}, with a score of {point_score} at {event_time}");
