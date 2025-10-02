@@ -1,3 +1,5 @@
+const TOUCHDOWN_POINTS: i32 = 6;
+
 fn main() {
     println!("Hello, world!");
 
@@ -13,7 +15,15 @@ fn main() {
     // new location
     if location.len() > 0 {
         location = "Vilnius";
-    }
+    };
 
-    println!("Print my name {name} using curly brackets, residing in {location}");
+    let _season: &'static str = "Rainy";
+    let point_score: i32 = 35 + TOUCHDOWN_POINTS;
+
+    #[allow(unused_variables)]
+    let event_time: &'static str = "6:00 PM";
+    let event_time: &'static str = "7:00 PM";
+    
+
+    println!("Print my name {name} using curly brackets, residing in {location}, with a score of {point_score} at {event_time}");
 }
